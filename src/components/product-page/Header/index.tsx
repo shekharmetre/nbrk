@@ -41,13 +41,13 @@ const Header = ({ data }: { data: Product }) => {
           <div className="flex items-center space-x-2.5 sm:space-x-3 mb-5">
             {data.discount.percentage > 0 ? (
               <span className="font-bold text-black text-2xl sm:text-[32px]">
-                {`$${Math.round(
+                {`Rs.${Math.round(
                   data.price - (data.price * data.discount.percentage) / 100
                 )}`}
               </span>
             ) : data.discount.amount > 0 ? (
               <span className="font-bold text-black text-2xl sm:text-[32px]">
-                {`$${data.price - data.discount.amount}`}
+                {`Rs.${data.price - data.discount.amount}`}
               </span>
             ) : (
               <span className="font-bold text-black text-2xl sm:text-[32px]">
