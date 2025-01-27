@@ -9,10 +9,10 @@ type CategoryItem = {
 
 export function Category() {
     const cat: CategoryItem[] = [
-        { name: "Vegetables", image: "/products/category/vegetables-category.jpg" },
+        { name: "Vegetables", image: "/products/category/vegetables.jpg" },
         { name: "Fruits", image: "/products/category/fruits-category.jpg" },
         { name: "Masalas", image: "/products/category/masalas-category.jpg" },
-        { name: "Spices", image: "/products/category/spices-category.jpg" },
+        { name: "Spices", image: "/products/category/spices.jpg" },
     ];
 
     return (
