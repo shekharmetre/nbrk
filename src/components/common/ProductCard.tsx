@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types/product.types";
 
+
 type ProductCardProps = {
   data: Product;
 };

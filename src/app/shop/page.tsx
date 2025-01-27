@@ -20,7 +20,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import { data } from "../page";
+import { data } from "@/lib/utils";
 
 
 export default function ShopPage() {

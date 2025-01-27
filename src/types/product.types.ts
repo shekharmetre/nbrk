@@ -4,15 +4,14 @@ export type Discount = {
 };
 
 export type Product = {
-  id: string | number;
+  id: number;
   title: string;
   srcUrl: string;
   gallery?: string[];
-  price: number;
+price: number;
   type: string;
   discount: Discount;
   rating: number;
-  content? : Product[] 
 };
 
 export type NestedContent = {
